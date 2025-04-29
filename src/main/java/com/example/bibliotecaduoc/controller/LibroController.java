@@ -16,7 +16,7 @@ import com.example.bibliotecaduoc.model.Libro;
 import com.example.bibliotecaduoc.services.LibroService;
 
 @RestController
-@RequestMapping("/api/libros")
+@RequestMapping("/api/v1/libros")
 public class LibroController {
     @Autowired
     private LibroService libroService;
